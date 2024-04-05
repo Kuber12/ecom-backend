@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  },
+  "scripts": {
+    "start": "nodemon --exec ts-node server.ts",
+    "build": "tsc",
+    "dev": "nodemon server.ts"
+  }
+}
